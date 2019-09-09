@@ -13,7 +13,9 @@ public interface PatientOperation {
         return new Scanner(System.in).nextLine();
     }
 
-    default String readPatientId() {return  new Scanner(System.in).nextLine();}
+    default String readPatientId() {
+        return new Scanner(System.in).nextLine();
+    }
 
     int ADD = 1;
     int SHOW_LIST = 2;

@@ -35,7 +35,9 @@ public class Termin implements Serializable {
             this.date = date;
         }
 
-        public void setHour(String hour) { this.hour = hour; }
+        public void setHour(String hour) {
+            this.hour = hour;
+        }
 
 
         public Termin build() {

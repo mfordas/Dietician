@@ -26,25 +26,6 @@ public class TerminFactory implements PatientOperation {
                 System.out.println(e);
             }
 
-
-        /*Patient patient;
-        System.out.println("Podaj termin wizyty w formacie yyyy/mm/dd hh:mm");
-        visitDate = readDate();
-        visitHour = readDate();
-        Date date = new SimpleDateFormat("yyyy/MM/dd"+"HH:mm").parse(visitDate+visitHour);
-        System.out.println("Podaj pesel pacjenta, ktorego chcesz zapisać: ");
-        String id = readId();
-
-        patient = patientList.stream()
-                .filter(Patient -> Long.parseLong(id) == (Long.parseLong(Patient.getId())))
-                .findAny()
-                .orElse(null);
-
-        return new Termin.Builder()
-                .date(date)
-                .patient(patient)
-                .build();*/
-
     }
 
 

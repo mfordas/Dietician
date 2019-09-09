@@ -7,7 +7,6 @@ public class Patient implements Serializable {
     private String lastName;
 
 
-
     public static class Builder {
 
         private String id;
@@ -43,7 +42,6 @@ public class Patient implements Serializable {
     }
 
 
-
     private Patient(Builder builder) {
         this.id = builder.id;
         this.firstName = builder.firstName;
@@ -63,7 +61,7 @@ public class Patient implements Serializable {
         return lastName;
     }
 
-    public Patient(String id, String firstName, String lastName){
+    public Patient(String id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -73,8 +71,8 @@ public class Patient implements Serializable {
     public String toString() {
         return
                 id + ' ' +
-                firstName + ' ' +
-                lastName + ' '
+                        firstName + ' ' +
+                        lastName + ' '
                 ;
     }
 }

@@ -7,9 +7,6 @@ public class ShowingPatientList implements PatientOperation {
     public void patientOperation(List<Patient> patientList, DieticianDatabase db) {
         importListFromSQL(patientList, db);
 
-        /*for (Patient p: patientList)
-        System.out.println(p);*/
-
         for (int patientNumber = 0; patientNumber < patientList.size(); patientNumber++) {
             System.out.println(patientNumber + 1 + " " + patientList.get(patientNumber).getId() + " " + patientList.get(patientNumber).getFirstName() + " " + patientList.get(patientNumber).getLastName());
         }
