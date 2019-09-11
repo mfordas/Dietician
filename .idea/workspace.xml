@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c1efcae-a400-4b09-96ab-afad28f8b155" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Dietician/TerminOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionChoose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TerminOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dieticianDatabase.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dieticianDatabase.db" beforeDir="false" afterPath="$PROJECT_DIR$/dieticianDatabase.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/AddTermin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/AddTermin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/Dietician.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/Dietician.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/DieticianDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/DieticianDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/Patient$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/Patient$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/PatientOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/PatientOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/RemovingTermin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/RemovingTermin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Dietician/ShowingPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/ShowingPatient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/ShowingPatientList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/ShowingPatientList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/ShowingTerminList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/ShowingTerminList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/Termin$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/Termin$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dietician/Termin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/Termin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Dietician/TerminFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dietician/TerminFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShowingPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShowingPatient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddTermin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddTermin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dietician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dietician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PatientOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatientOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RemovingTermin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemovingTermin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShowingTerminList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShowingTerminList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TerminFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TerminFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

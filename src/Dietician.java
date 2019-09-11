@@ -24,57 +24,57 @@ public class Dietician {
         System.out.println("Aby wyłączyć program wciśnij 0");
 
         try {
+            PatientOperation patient = null;
+            TerminOperation termin = null;
             int functionChoose = readFunctionChoose();
-
-            PatientOperation operation = null;
 
             while (functionChoose != PatientOperation.EXIT) {
 
-
                 switch (functionChoose) {
                     case PatientOperation.ADD:
-                        operation = new AddPatient();
+                        patient = new AddPatient();
                         break;
                     case PatientOperation.SHOW_LIST:
-                        operation = new ShowingPatientList();
+                        patient = new ShowingPatientList();
                         break;
                     case PatientOperation.SHOW_ONE:
-                        operation = new ShowingPatient();
+                        patient = new ShowingPatient();
                         break;
                     case PatientOperation.REMOVE:
-                        operation = new RemovingPatient();
+                        patient = new RemovingPatient();
                         break;
                     case PatientOperation.OLDEST_YOUNGEST:
-                        operation = new ShowingOldestPatient();
+                        patient = new ShowingOldestPatient();
                         break;
-                    case PatientOperation.NEW_VISIT:
-                        operation = new AddTermin();
-                        operation.terminOperation(terminList, db);
+                    case TerminOperation.NEW_VISIT:
+                        termin = new AddTermin();
                         break;
-                    case PatientOperation.TERMIN_LIST:
-                        operation = new ShowingTerminList();
-                        operation.terminOperation(terminList, db);
+                    case TerminOperation.TERMIN_LIST:
+                        termin = new ShowingTerminList();
                         break;
-                    case PatientOperation.REMOVE_VISIT:
-                        operation = new RemovingTermin();
-                        operation.terminOperation(terminList, db);
+                    case TerminOperation.REMOVE_VISIT:
+                        termin = new RemovingTermin();
                         break;
-
-
                     default:
-                        throw new IllegalStateException("Unexpected value: " + functionChoose);
+                        throw new IllegalStateException("Unexpected value: " + functionChoose );
+
+
+
                 }
-
-                operation.patientOperation(patientList, db);
-
+                if (functionChoose<=PatientOperation.OLDEST_YOUNGEST){
+                patient.patientOperation(patientList, db);} else {
+                termin.terminOperation(terminList, db);}
 
                 System.out.println("Podaj co chcesz dalej zrobić");
                 functionChoose = readFunctionChoose();
 
 
             }
+
         } catch (IllegalStateException e) {
             e.printStackTrace();
+            System.out.println("Podaj inny numer");
+
         } catch (StringIndexOutOfBoundsException e) {
             e.printStackTrace();
             System.out.println("Złe numery pesel");

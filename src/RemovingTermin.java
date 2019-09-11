@@ -3,9 +3,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
 
-public class RemovingTermin implements PatientOperation {
+public class RemovingTermin implements TerminOperation {
     @Override
-    public void patientOperation(List<Patient> patientList, DieticianDatabase db) {
+    public void terminOperation(List<Termin> terminList, DieticianDatabase db) {
         System.out.println("Podaj pesel pacjenta, ktorego wizytę chcesz skasować");
         String sql = "DELETE FROM terminList WHERE id = ?";
 

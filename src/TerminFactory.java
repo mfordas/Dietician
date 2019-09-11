@@ -3,9 +3,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class TerminFactory implements PatientOperation {
-    static String visitDate;
-    static String visitHour;
+public class TerminFactory {
 
     public static void createTermin(DieticianDatabase db){
 

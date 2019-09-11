@@ -3,7 +3,7 @@ import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-public class ShowingTerminList implements PatientOperation {
+public class ShowingTerminList implements TerminOperation {
     @Override
     public void terminOperation(List<Termin> terminList, DieticianDatabase db) {
         innerJoinPatienAndTerminList(db);
